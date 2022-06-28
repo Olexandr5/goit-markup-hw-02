@@ -190,7 +190,7 @@ portfolio-section
   line-height: 1.9;
 }
 .portfolio-img {
-  background-color: ;
+  background-color: var(--logo-footer);
 }
 /* ======================
 
