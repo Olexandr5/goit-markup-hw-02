@@ -125,6 +125,9 @@ teams-section
   line-height: 1.2;
   color: var(--slave-text);
 }
+.teams-img {
+  background-color: var(--logo-footer);
+}
 /* ======================
 footer-section
 ====================== */
@@ -185,6 +188,9 @@ portfolio-section
   font-size: 16px;
   font-weight: 400;
   line-height: 1.9;
+}
+.portfolio-img {
+  background-color: ;
 }
 /* ======================
 
