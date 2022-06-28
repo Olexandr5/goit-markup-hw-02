@@ -62,6 +62,9 @@ header-section
 /* /======================/
 hero-section
 /======================/ */
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   color: var(--logo-footer);
   font-size: 44px;
@@ -103,6 +106,9 @@ work-section
 /* ======================
 teams-section
 ====================== */
+.teams {
+  background-color: #f5f4fa;
+}
 .teams-title {
   font-size: 36px;
   font-weight: 700;
@@ -122,6 +128,9 @@ teams-section
 /* ======================
 footer-section
 ====================== */
+.footer {
+  background-color: #2f303a;
+}
 .logo-footer {
   color: var(--logo-footer);
   font-family: raleway, sans-serif;
