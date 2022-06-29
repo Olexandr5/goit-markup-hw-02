@@ -7,8 +7,7 @@
 }
 body {
   color: var(--primal-text);
-  background-color: var(--logo-footer);
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 .list {
   list-style: none;
@@ -21,26 +20,30 @@ header-section
 /======================/ */
 .logo-link {
   color: var(--logo-text);
-  font-family: raleway, sans-serif;
-  font-size: 26px;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-header {
   color: var(--logo-header);
-  font-family: raleway, sans-serif;
-  font-size: 26px;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.4;
+  letter-spacing: 0.03em;
 }
+
 .nav-title {
   color: var(--logo-text);
 }
 .nav-link {
   color: var(--primal-text);
-  font-size: 14px;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .nav-list {
   list-style: none;
@@ -51,9 +54,10 @@ header-section
 }
 .header-contacts {
   color: var(--slave-text);
-  font-size: 14px;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .header-list :hover,
 .header-list :focus {
@@ -67,12 +71,18 @@ hero-section
 }
 .hero-title {
   color: var(--logo-footer);
-  font-size: 44px;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--logo-footer);
   background-color: var(--logo-text);
@@ -85,23 +95,26 @@ hero-section
 gallery-section
 ====================== */
 .gallery-title {
-  font-size: 14px;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .gallery-desc {
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* ======================
 work-section
 ====================== */
 .work-title {
-  font-size: 36px;
   font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* ======================
 teams-section
@@ -110,19 +123,22 @@ teams-section
   background-color: #f5f4fa;
 }
 .teams-title {
-  font-size: 36px;
   font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .teams-user {
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .teams-position {
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--slave-text);
 }
 .teams-img {
@@ -137,21 +153,24 @@ footer-section
 .logo-footer {
   color: var(--logo-footer);
   font-family: raleway, sans-serif;
-  font-size: 26px;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.4;
+  letter-spacing: 0.03em;
 }
 .footer-address {
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   font-style: normal;
   color: var(--logo-footer);
 }
 .footer-link {
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: rgba(250, 250, 250, 0.6);
 }
 .footer-list :hover,
@@ -169,9 +188,11 @@ portfolio-section
 .portfolio-btn {
   cursor: pointer;
   background-color: #f5f4fa;
-  font-size: 16px;
+  font-family: Roboto;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -179,15 +200,17 @@ portfolio-section
   background-color: var(--logo-text);
 }
 .portfolio-title {
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-desc {
   color: var(--slave-text);
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 .portfolio-img {
   background-color: var(--logo-footer);
