@@ -9,15 +9,36 @@ body {
   color: var(--primal-text);
   font-family: Roboto, sans-serif;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+.work-img,
+.teams-img,
+.portfolio-img {
+  display: block;
+}
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+.container {
+  margin: auto;
+  width: 1200px;
+}
 /* /======================/
 header-section
 /======================/ */
+.header.container {
+  display: flex;
+  align-items: center;
+}
 .logo-link {
   color: var(--logo-text);
   font-family: Raleway, sans-serif;
@@ -47,6 +68,7 @@ header-section
 }
 .nav-list {
   list-style: none;
+  display: flex;
 }
 .nav-list :hover,
 .nav-list :focus {
@@ -58,6 +80,9 @@ header-section
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.header-list {
+  display: flex;
 }
 .header-list :hover,
 .header-list :focus {
@@ -76,6 +101,7 @@ hero-section
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 .hero-btn {
   font-family: Roboto;
@@ -86,6 +112,8 @@ hero-section
   cursor: pointer;
   color: var(--logo-footer);
   background-color: var(--logo-text);
+  display: block;
+  margin: auto;
 }
 .hero-btn:hover,
 .hero-btn:active {
@@ -94,6 +122,9 @@ hero-section
 /* ======================
 gallery-section
 ====================== */
+.gallery-list {
+  display: flex;
+}
 .gallery-title {
   font-weight: 700;
   font-size: 14px;
@@ -110,11 +141,15 @@ gallery-section
 /* ======================
 work-section
 ====================== */
+.work-list {
+  display: flex;
+}
 .work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 /* ======================
 teams-section
@@ -122,17 +157,22 @@ teams-section
 .teams {
   background-color: #f5f4fa;
 }
+.teams-list {
+  display: flex;
+}
 .teams-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .teams-user {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .teams-position {
   font-weight: 400;
@@ -140,6 +180,7 @@ teams-section
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--slave-text);
+  text-align: center;
 }
 .teams-img {
   background-color: var(--logo-footer);
@@ -194,10 +235,18 @@ portfolio-section
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
+.portfolio-btn.all {
+  color: var(--logo-footer);
+  background-color: var(--logo-text);
+}
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--logo-footer);
   background-color: var(--logo-text);
+}
+.portfolio-list-btn {
+  display: flex;
+  justify-content: center;
 }
 .portfolio-title {
   font-weight: 700;
